@@ -1,0 +1,29 @@
+{
+  "name": "foodly-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "compile": "tsc",
+    "start": "npm run compile && node ./dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marcusvanwinden/foodly-api.git"
+  },
+  "author": "Marcus van Winden <marcus.van.winden@icloud.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/marcusvanwinden/foodly-api/issues"
+  },
+  "homepage": "https://github.com/marcusvanwinden/foodly-api#readme",
+  "devDependencies": {
+    "@types/node": "^18.14.6",
+    "typescript": "^4.9.5"
+  },
+  "dependencies": {
+    "@apollo/server": "^4.4.1",
+    "graphql": "^16.6.0"
+  }
+}
